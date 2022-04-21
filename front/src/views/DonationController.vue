@@ -53,7 +53,7 @@ body {
   margin: auto;
   text-align: left;
   font-family: arial;
-  font-size: 18px;
+  font-size: 16px;
 }
 .shadow:hover {
   border: 2.5px solid #2196f3;
