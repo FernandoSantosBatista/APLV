@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="title col-sm-10">
+      <div class="title col-sm-12">
         <h2 class="title00">Cadastros</h2>
         <hr />
       </div>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="row">
-      <div class="table-responsive col-sm-11">
+      <div class="table-responsive col-sm-12">
         <table class="table table-hover table-borderless ">
           <thead>
             <tr>
@@ -52,7 +52,6 @@
           </table>
       </div>
     </div>
-
   </div>
 </template>
 <script>
