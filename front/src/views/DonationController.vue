@@ -72,7 +72,7 @@ h2 {
 }
 
 .bi{
-  font-size: 30px;
+  font-size: 20px;
   color: #2196f3;
   text-align: center;
 }
