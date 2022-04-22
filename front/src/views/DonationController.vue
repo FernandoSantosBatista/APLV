@@ -15,7 +15,7 @@
             <li class="list-group-item"> <strong> Nome: </strong> {{item.nome}}</li>
             <li class="list-group-item"> <strong> Bairro: </strong> {{item.bairro}}</li>
             <li class="list-group-item"> <strong> Cidade: </strong> {{item.cidade}}</li>
-            <li class="list-group-item"> <strong> Email: </strong> {{item.email}}</li>
+            <li class="list-group-item" hidden> <strong> Email: </strong> {{item.email}}</li>
             <i class="bi bi-hand-index"></i>
           </ul>
           </div>
