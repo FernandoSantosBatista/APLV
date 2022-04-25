@@ -4,10 +4,11 @@
     <div class="row " >
       <div class="col-sm-10">
         <h1 class="titulo">{{ registrationMode ? "Adicionar" : "Editar" }} Cadastros </h1>
+        <p>Cadastre-se para receber doação</p>
         <hr />
       </div>
     </div>
-
+    
     <div class="row">
       <div class="col-sm-10">
         <div class="form-group">
@@ -127,7 +128,7 @@ export default {
             .then(() => {
                 this.$swal({
                   icon: 'success',
-                  title: 'Cadastro cadastrado com sucesso!',
+                  title: 'Cadastro concluido aguarde contato!',
                   confirmButtonColor: '#0039A8',
                   animate: true
                 });
@@ -193,6 +194,10 @@ export default {
 <style scoped>
 .container{
     padding: 40px;
+}
+
+p{
+  font-size: 16px;
 }
 
 </style>

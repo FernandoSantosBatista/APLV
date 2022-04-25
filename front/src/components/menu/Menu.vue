@@ -10,9 +10,7 @@
         <li class="nav-item">
           <router-link to="/" class="nav-item text-white nav-link">Home</router-link>
         </li>
-        <li class="nav-item">
-          <router-link to="/gerenciamento-de-cadastros" class="nav-item text-white nav-link">Gerenciamento</router-link>
-        </li>
+        
         <li class="nav-item">
           <router-link to="/gerenciamento-de-cadastros/novo" class="nav-item text-white  nav-link">Cadastrar</router-link>
         </li>
