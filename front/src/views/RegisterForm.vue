@@ -136,7 +136,7 @@ export default {
                 this.register = new Register();
 
                 if(!this.continueAdding){
-                    this.$router.push({name: "RegisterController"})
+                    this.$router.push({name: "Dashboard"})
                 }
             })
             .catch(error =>{
