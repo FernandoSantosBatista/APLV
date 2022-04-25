@@ -14,7 +14,7 @@
   <div class="container sub-titulo">
     <h3 class="col h3 text-center">Nosso Objetivo</h3>
     <p class="text-center">Ajudar....</p>
-    <p>O objetivo deste projeto é realizar um grupo de apoio a famílias de 
+    <p >O objetivo deste projeto é realizar um grupo de apoio a famílias de 
       crianças que possuem diagnóstico de APLV: são famílias que necessitam 
       de muita ajuda, pois além de se depararem com muitas dúvidas, o indivíduo 
       que sofre com todos os males causados pela alergia é uma criança, o que deixa 
@@ -23,7 +23,13 @@
       de crianças com APLV, para que haja o apoio às famílias, por meio de doações de fórmulas por 
       empresas que tenham essa fórmula sobressalente e/ou outras pessoas que se sensibilizarem a fazer a doação.
       Com este cadastro, quem estiver interessado em fazer a doação, filtrará a família mais próxima de sua residência e agendará a entrega em local firmado em comum acordo.</p>
+   <br>
+  
+    <div class=" d-md-flex justify-content-md-center">
+      <router-link to="/sobre" type="button" class="btn btn-secondary btn-lg">Mais Informações...</router-link>
+    </div>
   </div>  
+  <br>
 </div>
 </body>
 </template>
@@ -61,7 +67,7 @@ body {
 
 .container, .container-lg, .container-md, .container-sm {
     max-width: 960px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .hero-text {
@@ -94,7 +100,5 @@ a:hover {
     color: #090753;
 }
 
-.sub-titulo{
-  padding: 20px;
-}
+
 </style>

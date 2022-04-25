@@ -16,7 +16,7 @@ const routes = [
         path: '/sobre',
         name: 'About',
         component: About,
-        title: 'Sobre nós',
+        title: 'sobre',
         meta: { requiredAuth: true }
     },
     {
