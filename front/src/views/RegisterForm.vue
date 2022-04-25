@@ -111,7 +111,7 @@ export default {
 
         cancelAction(){
             this.register = new Register();
-            this.$router.push({name: "RegisterController"})
+            this.$router.push({name: "NewRegister"})
         },
         registerForm(){
             if(!this.register.modelValidForRegistration()){
@@ -136,7 +136,7 @@ export default {
                 this.register = new Register();
 
                 if(!this.continueAdding){
-                    this.$router.push({name: "Dashboard"})
+                    this.$router.push({name: "NewRegister"})
                 }
             })
             .catch(error =>{
@@ -171,7 +171,7 @@ export default {
                   confirmButtonColor: '#0039A8',
                   animate: true
                 });
-                this.$router.push({name: "RegisterController"});
+                this.$router.push({name: "NewRegister"});
             })
             .catch(error => {
                 console.log(error);
