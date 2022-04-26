@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Menu v-if="this.$router.currentRoute.name != 'Login'"></Menu>
-    <router-view/>
-    <Footer v-if="this.$router.currentRoute.name != 'Login'"></Footer>
+    <Menu/>
+     <router-view/>
+    <Footer/>
   </div>
 </template>
 <script>
