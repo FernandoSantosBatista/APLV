@@ -7,8 +7,6 @@
       </div>
   </div>
   
-    
-
   <div class="container ">
     <div class="about">
     <p>A alergia à proteína do leite de vaca, conhecida como APLV, é a alergia alimentar mais comum durante a infância: 
@@ -18,9 +16,7 @@
       correto e, caso confirmado, já se dê início ao tratamento.</p>
     </div>
 
-  <h3 class="text-center">O que é APLV ?</h3>
-    
-    
+  <h3 class="text-start fw-bolder">O que é APLV ?</h3>
 
   <div class="row">
     <div class="col-sm-7 col-md-7">
@@ -41,7 +37,7 @@
     </div>
     
     <div class="about">
-      <h3 class="text-center">Causas da APLV</h3>
+      <h3 class="text-start fw-bolder">Causas da APLV</h3>
         <p>  
           Na maioria dos casos, os sintomas da APLV aparecem quando a criança começa a consumir leite de vaca e derivados, mas há também a 
           possibilidade da alergia surgir mesmo em bebês nutridos exclusivamente de leite materno, por conta da alimentação da mãe. Nessas 
@@ -52,7 +48,7 @@
     </div> 
 
     <div class="about">
-      <h3 class="text-center">Sintomas da APLV</h3>
+      <h3 class="text-start fw-bolder">Sintomas da APLV</h3>
         <p>  
           Os sintomas podem ser imediatos e aparecer em até duas horas após a ingestão do leite de vaca. Também podem ser tardios e surgir horas ou dias após a alimentação com leite.
           As principais reações imediatas são:
@@ -75,7 +71,7 @@
       <div class="col-sm-4 col-md-4"> 
         <img class="img-fluid img-thumbnail" :src="require('@/assets/images/sintomas.jpeg')" alt="100" height="250" width="250">
       </div>
-        <h4 class="text-start"> Sintomas tardios</h4>
+        <h4 class="text-start fw-bolder"> Sintomas tardios</h4>
 
       <div class="row">
         <div class="col-sm-6 col-md-6">
@@ -97,7 +93,7 @@
     </div>
   
       <div class="about">
-        <h3 class="text-center">Como identificar a APLV</h3>
+        <h3 class="text-start fw-bolder">Como identificar a APLV</h3>
           <p>  
             O diagnóstico não é simples. Geralmente, é feito pelo histórico familiar do paciente e pelo conjunto de reações alérgicas já observadas pelos pais. O pediatra também fará um exame físico, com atenção especial à nutrição. Ele poderá observar:
           </p>
@@ -114,11 +110,11 @@
       </div>
 
       <div class="about">
-        <h3 class="text-center">Tratamento da alergia à proteína do leite de vaca</h3>
+        <h3 class="text-start fw-bolder">Tratamento da alergia à proteína do leite de vaca</h3>
           <p>  
             Durante o tratamento, a criança que tem APLV deve ter excluídos da sua dieta todos os alimentos que contenham a proteína do leite de vaca. A alergia não é causada pela quantidade ingerida, e sim pela proteína em si. Portanto, até uma pequena quantidade pode causar a reação alérgica. Muitas vezes, o bebê volta a tolerar a proteína conforme seu organismo se desenvolve. Cerca de 80% das crianças têm a alergia resolvida entre três e cinco anos de idade. Mesmo que a alergia seja resolvida, a reintrodução de alimentos que contenham a proteína do leite deve ser supervisionada pelo médico. Muitas vezes, o bebê volta a tolerar a proteína conforme seu organismo se desenvolve. Cerca de 80% das crianças têm a alergia resolvida entre três e cinco anos de idade. Mesmo que a alergia seja resolvida, a reintrodução de alimentos que contenham a proteína do leite deve ser supervisionada pelo médico.        </p>
         <br>
-        <h4 class="text-start">O que não pode comer</h4>
+        <h4 class="text-start fw-bolder">O que não pode comer</h4>
         <br>
         <p>A criança com APLV não pode comer nenhum alimento que contenha a proteína do leite de vaca, como:</p>
         <div class="row">
@@ -148,21 +144,21 @@
       </div>
 
       <div class="about">
-        <h3 class="text-center">O que pode comer ? </h3>
+        <h3 class="text-start fw-bolder">O que pode comer ? </h3>
           <p>  
           A criança pode comer quaisquers alimentos recomendados pelo médico que não apresentem a proteína do leite ou risco de contaminação cruzada, como carnes, vegetais, frutas, verduras, leguminosas, cereais e grãos.
           </p>
       </div>
 
       <div class="about">
-        <h3 class="text-center">A dieta da mãe que amamenta ?</h3>
+        <h3 class="text-start fw-bolder">A dieta da mãe que amamenta ?</h3>
           <p>  
           No caso dos bebês em aleitamento materno, o pediatra deve indicar a dieta restritiva à mãe, para que a amamentação não seja interrompida. Isso significa que ela deverá cortar da alimentação todos os alimentos que possuam a proteína do leite de vaca.
           </p>
       </div>
 
       <div class="about">
-        <h3 class="text-center">Diferenças entre APLV e intolerância à lactose ?</h3>
+        <h3 class="text-start fw-bolder">Diferenças entre APLV e intolerância à lactose ?</h3>
           <p>  
           A alergia ao leite de vaca é uma reação do sistema imunológico a uma proteína alimentar específica e os sintomas podem aparecer não apenas pela ingestão do leite, mas também pelo contato ou cheiro do alimento. Até por isso costuma-se indicar que os utensílios de cozinha usados para preparar as refeições do alérgico sejam separados dos outros. Já as intolerâncias não envolvem o sistema imunológico. Na intolerância à lactose, a pessoa não produz a lactase, enzima responsável por quebrar o açúcar encontrado no leite e em produtos lácteos (lactose). Como resultado, vai sentir algum desconforto gástrico apenas quando ingerir a bebida ou seus derivados, dependendo da quantidade. A intolerância à lactose causa sintomas como náuseas, gases, inchaço e diarreia. Embora a intolerância à lactose possa gerar grandes desconfortos, não apresenta perigo como pode ocorrer com a APLV.
           </p>
@@ -189,7 +185,8 @@ export default {
 <style scope>
 
 h3{
-  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
   
