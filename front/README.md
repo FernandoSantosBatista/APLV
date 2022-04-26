@@ -1,23 +1,23 @@
-# fundamentos-vue
+# Apoio APLV
 
 ## Project setup
 ```
-yarn install
+npm  install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm build
+npm run build
 ```
 
 ### Lints and fixes files
 ```
-npm lint
+npm run lint
 ```
 
 ### Customize configuration

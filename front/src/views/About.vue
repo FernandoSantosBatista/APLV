@@ -18,7 +18,7 @@
       correto e, caso confirmado, já se dê início ao tratamento.</p>
     </div>
 
-  <h3 class="text-center">O que é APLV.</h3>
+  <h3 class="text-center">O que é APLV ?</h3>
     
     
 
