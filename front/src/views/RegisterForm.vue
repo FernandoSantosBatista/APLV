@@ -20,21 +20,21 @@
       <div class="col-sm-10">
         <div class="form-group">
           <label class="form-label" for="name">Nome</label>
-          <input id="name" v-model="register.nome" type="text" class="form-control" />
+          <input id="name" v-model="register.name" type="text" class="form-control" />
         </div>
       </div>
  
       <div class="col-sm-10">
         <div class="form-group">
-          <label class="form-label" for="bairro">Bairro</label>
-          <input id="bairro" v-model="register.bairro" type="text" class="form-control" />
+          <label class="form-label" for="district">Bairro</label>
+          <input id="district" v-model="register.district" type="text" class="form-control" />
         </div>
       </div>
 
       <div class="col-sm-10">
         <div class="form-group">
-          <label class="form-label" for="cidade">Cidade</label>
-          <input id="cidade" v-model="register.cidade" type="text" class="form-control" />
+          <label class="form-label" for="city">Cidade</label>
+          <input id="city" v-model="register.city" type="text" class="form-control" />
         </div>
       </div>
 
@@ -143,7 +143,7 @@ export default {
                 console.log(error);
                 this.$swal({
                   icon: 'error',
-                  title: 'Não foi possível cadastrar o cadastro',
+                  title: 'Não foi possível cadastrar',
                   confirmButtonColor: '#0039A8',
                   animate: true
                 });
@@ -171,7 +171,7 @@ export default {
                   confirmButtonColor: '#0039A8',
                   animate: true
                 });
-                this.$router.push({name: "NewRegister"});
+                this.$router.push({name: "RegisterController"});
             })
             .catch(error => {
                 console.log(error);

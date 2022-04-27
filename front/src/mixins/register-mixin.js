@@ -25,7 +25,7 @@ let RegisterMixin = {
           this.$swal({
             icon: "question",
             title: "Deseja excluir o cadastro?",
-            text: `Código: ${register.id} - Nome: ${register.nome}`,
+            text: `Código: ${register.id} - Name: ${register.name}`,
             showCancelButton: true,
             confirmButtonColor: "#0039A8",
             confirmButtonText: "Sim",

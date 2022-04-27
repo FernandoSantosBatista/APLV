@@ -2,17 +2,17 @@ export default class RegisterAPLV {
     constructor(obj){
         obj = obj || {};
         this.id = obj.id;
-        this.nome= obj.nome;
-        this.bairro = obj.bairro;
-        this.cidade = obj.cidade;
+        this.name= obj.name;
+        this.district = obj.district;
+        this.city = obj.city;
         this.email = obj.email
     }
 
     modelValidForRegistration(){
-        return !!this.nome;
+        return !!this.name;
     }
 
     modelValidToUpdate(){
-        return !! (this.id && this.nome)
+        return !! (this.id && this.name)
     }
 }

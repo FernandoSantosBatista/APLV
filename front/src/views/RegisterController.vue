@@ -33,9 +33,9 @@
           </thead>
           <tbody>
             <tr v-for="item in register" :key="item.id">
-              <td>{{item.nome}}</td>
-              <td>{{item.bairro}}</td>
-              <td>{{item.cidade }}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.district}}</td>
+              <td>{{item.city }}</td>
               <td>{{item.email}}</td>
               <td>
                 <i

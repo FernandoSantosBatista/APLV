@@ -2,7 +2,7 @@ import api from './api';
 
 function getAll(){
     return new Promise((resolve, reject) => {
-        return api.get('/cadastro')
+        return api.get('/register')
         .then(response => resolve(response))
         .catch(error => reject(error));
     });
@@ -10,7 +10,7 @@ function getAll(){
 
 function getById(id){
     return new Promise((resolve, reject) => {
-        return api.get(`/cadastro/${id}/`)
+        return api.get(`/register/${id}/`)
         .then(response => resolve(response))
         .catch(error => reject(error));
     });
@@ -18,7 +18,7 @@ function getById(id){
 
 function register(register){
     return new Promise((resolve, reject) => {
-        return api.post(`/cadastro`, register)
+        return api.post(`/register`, register)
         .then(response => resolve(response))
         .catch(error => reject(error));
     });
@@ -26,7 +26,7 @@ function register(register){
 
 function update(register){
     return new Promise((resolve, reject) => {
-        return api.put(`/cadastro/${register.id}/`, register)
+        return api.put(`/register/${register.id}/`, register)
         .then(response => resolve(response))
         .catch(error => reject(error));
     });
@@ -34,7 +34,7 @@ function update(register){
 
 function remove(id){
     return new Promise((resolve, reject) => {
-        return api.delete(`/cadastro/${id}/`)
+        return api.delete(`/register/${id}/`)
         .then(response => resolve(response))
         .catch(error => reject(error));
     });

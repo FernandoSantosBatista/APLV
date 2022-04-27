@@ -71,11 +71,12 @@
       <div class="col-sm-4 col-md-4"> 
         <img class="img-fluid img-thumbnail" :src="require('@/assets/images/sintomas.jpeg')" alt="100" height="250" width="250">
       </div>
-        <h4 class="text-start fw-bolder"> Sintomas tardios</h4>
+      <br>
+        <h4 class="text-start"> Sintomas tardios</h4>
 
       <div class="row">
-        <div class="col-sm-6 col-md-6">
-        <ul>
+        <div class="col-sm-8 col-md-8">
+        <ul >
             <li>Dermatite atópica (coceira e erupções na pele)</li>
             <li>Diarréia crônica</li>
             <li>Fezes com sangue</li>

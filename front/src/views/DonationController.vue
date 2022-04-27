@@ -12,9 +12,9 @@
         <div class="card shadow" style="width: 18rem;">
           <ul class="list-group list-group-flush">
             <i class="bi bi-reply-all-fill"></i>
-            <li class="list-group-item"> <strong> Nome: </strong> {{item.nome}}</li>
-            <li class="list-group-item"> <strong> Bairro: </strong> {{item.bairro}}</li>
-            <li class="list-group-item"> <strong> Cidade: </strong> {{item.cidade}}</li>
+            <li class="list-group-item"> <strong> Nome: </strong> {{item.name}}</li>
+            <li class="list-group-item"> <strong> Bairro: </strong> {{item.district}}</li>
+            <li class="list-group-item"> <strong> Cidade: </strong> {{item.city}}</li>
             <li class="list-group-item" hidden> <strong> Email: </strong> {{item.email}}</li>
             <i class="bi bi-hand-index"></i>
           </ul>
