@@ -15,9 +15,6 @@
           <router-link to="/gerenciamento-de-cadastros/novo" class="nav-item text-white  nav-link">Cadastrar</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/gerenciamento-de-cadastros" class="nav-item text-white  nav-link">gerenciar</router-link>
-        </li>
-        <li class="nav-item">
           <router-link to="/doar" class="nav-item text-white nav-link">Quero Doar</router-link>
         </li>
         <li class="nav-item">
