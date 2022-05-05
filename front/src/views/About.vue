@@ -183,12 +183,17 @@ export default {
 };
 </script>
 
-<style scope>
+<style>
 
 h3{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+  }
+
 
   
 </style>

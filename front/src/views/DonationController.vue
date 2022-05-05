@@ -3,13 +3,25 @@
   <div class="container-fluid">
     <div class="text-center">
       <h2 ><strong>Área de doação: Relação de Cadastrados</strong></h2> 
-      <p>Clique no cadastro mais próximo de sua residência para realizar a doação.</p> 
+      <p>Clique no cadastro mais próximo de sua residência para realizar a doação.</p>
     </div>
+
+<!--<div class="container">
+      <div class="row height d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+          <div class="form">
+          <input type="search"  v-model="search" class="form-control form-input" placeholder="Digite o nome da cidade"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-3" >
-      <div class="" v-for="item in register" :key="item.id"> 
+      <div class="" v-for="item in filteredRegister" :key="item.id"> 
        <a :href="`mailto: ${item.email}?subject=Bem%20vindo%20ao%20apoio%20a%20crian%C3%A7a%20APLV&body=Ol%C3%A1%20vi%20o%20seu%20cadastro%20no%20site%20https%3A%2F%2Fapoioaplv.netlify.app%2F%20tenho%20interesse%20em%20ajudar.`">
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card shadow" style="width: 20rem;">
           <ul class="list-group list-group-flush">
             <i class="bi bi-reply-all-fill"></i>
             <li class="list-group-item"> <strong> Nome: </strong> {{item.name}}</li>
@@ -38,8 +50,16 @@ export default {
 
   data() {
     return {
+      search: '',
     };
   },
+ /* computed: {
+    filteredRegister() {
+      return this.register.filter(item => {
+        return item.city.toLowerCase().includes(this.search.toLowerCase());
+      });
+    }
+  },*/
 };
 </script>
 <style>
