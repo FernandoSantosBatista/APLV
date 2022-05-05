@@ -6,7 +6,7 @@
       <p>Clique no cadastro mais próximo de sua residência para realizar a doação.</p>
     </div>
 
-<!--<div class="container">
+    <div class="container">
       <div class="row height d-flex justify-content-center align-items-center">
         <div class="col-md-6">
           <div class="form">
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    -->
+  
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-3" >
@@ -51,15 +51,16 @@ export default {
   data() {
     return {
       search: '',
+     
     };
   },
- /* computed: {
+  computed: {
     filteredRegister() {
       return this.register.filter(item => {
         return item.city.toLowerCase().includes(this.search.toLowerCase());
       });
     }
-  },*/
+  },
 };
 </script>
 <style>
