@@ -26,7 +26,7 @@
    <br>
   
     <div class=" d-md-flex justify-content-md-center">
-      <router-link to="/sobre" type="button" class="btn btn-secondary btn-lg">Mais Informações...</router-link>
+      <a href="https://apoioaplv.netlify.app/sobre" type="button" class="btn btn-secondary btn-lg">Mais Informações...</a>
     </div>
   </div>  
   <br>
