@@ -6,13 +6,13 @@
       </div>
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://www.facebook.com/"
         role="button"
         ><i class="bi bi-facebook"></i
       ></a>
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://twitter.com/"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-twitter"></i
@@ -20,7 +20,7 @@
 
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://www.instagram.com/"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-instagram"></i
@@ -28,7 +28,7 @@
 
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
+        href="https://br.linkedin.com"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="bi bi-linkedin"></i
@@ -44,7 +44,7 @@
 
   <div class="ffooter text-center text-white p-3 fixed" >
     © 2022 Copyright: All rights reserved
-    <a class="text-white" href="">Progeto Integrador</a>
+    <a class="text-white" href="https://github.com/FernandoSantosBatista/APLV">Projeto Integrador</a>
   </div>
 </footer>
 </template>

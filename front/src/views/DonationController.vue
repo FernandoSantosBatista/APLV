@@ -31,14 +31,12 @@
           </ul>
           </div>
         </a>
-      </div>
-      
+      </div> 
     </div>
     <div class="back d-md-flex justify-content-md-end">
             <a href="#topo" type="button" class="btn btn-primary btn-lg float-end"><i class="bi bi-arrow-up-circle text-white">Voltar ao Topo</i></a>
           </div>
   </div>
-  
 </div>
 </body>
 </template>
