@@ -1,7 +1,7 @@
 <template>
 <body>
   <div class="container-fluid">
-    <div class="text-center">
+    <div class="donation text-center">
       <h2 ><strong>Área de doação: Relação de Cadastrados</strong></h2> 
       <p>Clique no cadastro mais próximo de sua residência para realizar a doação.</p>
     </div>
@@ -15,10 +15,9 @@
         </div>
       </div>
     </div>
-  
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-3" >
+    <div class="cards row row-cols-1 row-cols-md-3 g-3" >
       <div class="" v-for="item in filteredRegister" :key="item.id"> 
        <a :href="`mailto: ${item.email}?subject=Bem%20vindo%20ao%20apoio%20a%20crian%C3%A7a%20APLV&body=Ol%C3%A1%20vi%20o%20seu%20cadastro%20no%20site%20https%3A%2F%2Fapoioaplv.netlify.app%2F%20tenho%20interesse%20em%20ajudar.`">
         <div class="card shadow" style="width: 30rem;">
@@ -32,9 +31,14 @@
           </ul>
           </div>
         </a>
+        
       </div>
     </div>
+    <div class=" d-md-flex justify-content-md-end">
+            <a href="#topo" type="button" class="btn btn-primary btn-lg float-end"><i class="bi bi-arrow-up-circle text-white">Voltar ao Topo</i></a>
+          </div>
   </div>
+  
 </div>
 </body>
 </template>
@@ -64,16 +68,21 @@ export default {
 };
 </script>
 <style>
+
 body {
-  margin: 0;
-}
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: auto;
+  }
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: left;
-  font-family: arial;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
 }
 .shadow:hover {
@@ -88,14 +97,30 @@ h2 {
     margin-top: 40px;
 }
 
-.container{
-  padding: 20px;
-}
-
 .bi{
   font-size: 20px;
   color: #2196f3;
   text-align: center;
+}
+
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.container-fluid {
+  padding-right: unset;
+  padding-left: unset;
+}
+
+.donation{
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.cards{
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
   
 </style>

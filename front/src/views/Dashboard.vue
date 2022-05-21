@@ -1,19 +1,15 @@
 <template>
 <body>
-  <div class="container-fluid">
-    <div class="container-fluid hero-image">
-      <div class="hero-text col-xs-12 col-sm-12 col-md-8 col-lg-6">
-        <h1>Bem vindo ao apoio a criança APLV</h1> 
-      </div>
+<div class="container-fluid">
+  <div class="hero-image">
+    <div class="hero-text p3">
+      <h1>Bem vindo ao Apoio a Criança </h1>
+      <h3>Conheça mais sobre <br> APLV (Alergia a Proteina do Leite Vaca) </h3>
+    </div>
   </div>
-
-  <div class="sub-titulo">
-    <h2 class="display-6 text-center">Conheça mais sobre a alergia <br> ao leite de vaca</h2>
-  </div>
-
-  <div class="container sub-titulo">
-    <h3 class="col h3 text-center">Nosso Objetivo</h3>
-    <p class="text-center">Ajudar....</p>
+  <div class="container">
+    <h2 class="col h3 text-right">Nosso Objetivo</h2>
+    <h3 class="text-right">Ajudar....</h3>
     <p >O objetivo deste projeto é realizar um grupo de apoio a famílias de 
       crianças que possuem diagnóstico de APLV: são famílias que necessitam 
       de muita ajuda, pois além de se depararem com muitas dúvidas, o indivíduo 
@@ -22,14 +18,8 @@
       O foco principal será a realização de um banco de dados com responsáveis
       de crianças com APLV, para que haja o apoio às famílias, por meio de doações de fórmulas por 
       empresas que tenham essa fórmula sobressalente e/ou outras pessoas que se sensibilizarem a fazer a doação.
-      Com este cadastro, quem estiver interessado em fazer a doação, filtrará a família mais próxima de sua residência e agendará a entrega em local firmado em comum acordo.</p>
-   <br>
-  
-    <div class=" d-md-flex justify-content-md-center">
-      <a href="https://apoioaplv.netlify.app/sobre" type="button" class="btn btn-secondary btn-lg">Mais Informações...</a>
-    </div>
-  </div>  
-  <br>
+      Com este cadastro, quem estiver interessado em fazer a doação, filtrará a família mais próxima de sua residência e agendará a entrega em local firmado em comum acordo. <a href="https://apoioaplv.netlify.app/sobre"><i class="bi-font bi bi-chevron-double-right">Mais Informaçoes...</i></a></p>
+</div>
 </div>
 </body>
 </template>
@@ -49,16 +39,42 @@ export default {
 </script>
 <style>
 body {
-  margin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+h1{
+  font-size:40px;
 }
+
+.bi-font{
+  text-decoration: none;
+  color:#212529;
+  font-size: 20px;
+}
+.bi-font:hover {
+    text-decoration:none;
+    color: #0D6EFD;
+}
+ 
 .hero-image {
-  background-image: url(~@/assets/images/aplv.jpg);
-  background-color: #020202; /* Used if the image is unavailable */
-  height: 300px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  box-shadow: #020202;
+  background-image: linear-gradient(rgba(46, 44, 44, 0.5), rgba(10, 10, 10, 0.5)), url(~@/assets/images/aplv.jpg);
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .container-fluid {
@@ -69,19 +85,7 @@ body {
 .container, .container-lg, .container-md, .container-sm {
     max-width: 960px;
     margin-top: 20px;
-}
-
-.hero-text {
-  position: absolute;
-  padding-left: 50px;
-  margin-top: 80px;
-  color: rgb(4, 10, 92);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p{
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 .title{
@@ -100,6 +104,5 @@ a:hover {
     text-decoration:none;
     color: #090753;
 }
-
 
 </style>

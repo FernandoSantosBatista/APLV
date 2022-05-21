@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://admin-apoioaplv.herokuapp.com'
+    baseURL: 'https://flaskapiaplv.herokuapp.com'
 });
 
 export default api;

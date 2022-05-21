@@ -1,7 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="topo">
   <div class="container-fluid">
-    <router-link to="/" class="nav-item text-white nav-link">APLV</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,8 +34,17 @@ export default {
         }
     },
 }
+
 </script>
-<style  scoped >
+<style >
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Roboto+Slab:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
 
 .navbar {
     background: linear-gradient(to right, #070070, #0a5cf5);

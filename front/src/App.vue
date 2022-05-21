@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 
-  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
 
   :root{
     --cor-primaria: #0039A8;
@@ -30,15 +30,10 @@ export default {
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
+  
 
-  .titulo {
-    font-weight: 600;
-    color: #363636;
-    font-size: 25px;
-    margin-top: 10px;
-  }
   /* Override */
   .btn-primary,
   .btn-primary:active
