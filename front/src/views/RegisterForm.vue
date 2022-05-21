@@ -160,8 +160,6 @@ export default {
                 });
                 return;
             }
-            
-            
 
             registerService.update(this.register)
             .then(() =>{

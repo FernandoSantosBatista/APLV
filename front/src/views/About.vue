@@ -170,7 +170,7 @@
           A alergia ao leite de vaca é uma reação do sistema imunológico a uma proteína alimentar específica e os sintomas podem aparecer não apenas pela ingestão do leite, mas também pelo contato ou cheiro do alimento. Até por isso costuma-se indicar que os utensílios de cozinha usados para preparar as refeições do alérgico sejam separados dos outros. Já as intolerâncias não envolvem o sistema imunológico. </p>
          <p> Na intolerância à lactose, a pessoa não produz a lactase, enzima responsável por quebrar o açúcar encontrado no leite e em produtos lácteos (lactose). Como resultado, vai sentir algum desconforto gástrico apenas quando ingerir a bebida ou seus derivados, dependendo da quantidade. A intolerância à lactose causa sintomas como náuseas, gases, inchaço e diarreia. Embora a intolerância à lactose possa gerar grandes desconfortos, não apresenta perigo como pode ocorrer com a APLV.
           </p>
-          <div class=" d-md-flex justify-content-md-end">
+          <div class="back d-md-flex justify-content-md-end">
             <a href="#topo" type="button" class="btn btn-primary btn-lg float-end"><i class="bi bi-arrow-up-circle text-white">Voltar ao Topo</i></a>
           </div>
      </div> 
@@ -207,6 +207,11 @@ body {
 h3{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.back{
+  margin-top: 20px;
+  margin-bottom: 90px;
 }
 
 

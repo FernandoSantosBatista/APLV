@@ -31,10 +31,10 @@
           </ul>
           </div>
         </a>
-        
       </div>
+      
     </div>
-    <div class=" d-md-flex justify-content-md-end">
+    <div class="back d-md-flex justify-content-md-end">
             <a href="#topo" type="button" class="btn btn-primary btn-lg float-end"><i class="bi bi-arrow-up-circle text-white">Voltar ao Topo</i></a>
           </div>
   </div>
@@ -103,24 +103,29 @@ h2 {
   text-align: center;
 }
 
-.container, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
 .container-fluid {
   padding-right: unset;
   padding-left: unset;
 }
 
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.back{
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
 .donation{
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom:  40px;
 }
 
 .cards{
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
   
+  margin-bottom: 30px;
+}
 </style>
